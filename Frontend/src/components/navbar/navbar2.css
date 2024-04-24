@@ -1,0 +1,78 @@
+.dropdown {
+    float: left;
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+ .dropdown:hover .dropbtn {
+   background-color: #a4af0ed2;
+}
+.dropbtn{
+  cursor: pointer;
+}
+.dropdown-one {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-two {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  min-width: 160px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
+  display: block;
+}
+
+.dropdown-one .dItem {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-one .dItem:hover, .dropdown-two a:hover {
+    background-color: #ddd;
+}
+.navbars{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 3rem;
+  background-color: rgb(27, 27, 28);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+li>a{
+  padding: 1rem;
+}
+li>a:hover{
+background-color:#a4af0ed2 ;
+}
+.btn:active{
+
+  transform: translateY(1.02rem);
+
+}

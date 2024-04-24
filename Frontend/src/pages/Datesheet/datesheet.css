@@ -1,0 +1,67 @@
+embed{
+ overflow: hidden!important;
+ 
+}
+
+.pdfs{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+}
+/* embed::-webkit-scrollbar {
+    display: none!important; 
+}
+embed>body{
+    overflow: hidden!important;
+} */
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+ .box-container .box{
+    height: 20rem;
+    width: 25rem;
+    border-radius: 1rem;
+    margin:1rem 2rem ;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #a4af0ed2;
+    text-align: center;
+    box-shadow: #a4af0ed2 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box h1, .box a{
+    color: white;
+    font-size: 1rem;
+}
+.box p{
+    color: white;
+    font-size: 1rem;
+    line-height: 2.5rem;
+
+
+}
+.box span{
+    font-size: 1rem;
+}
+.box h3{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 1rem;
+}
+ .box-container >a>.box:hover {
+    transform: scale(1.06);
+}

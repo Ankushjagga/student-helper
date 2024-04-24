@@ -1,0 +1,29 @@
+.stud{
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    width: 100%;
+    color: white;
+display: flex;
+flex-wrap: wrap;
+/* background: linear-gradient(rgba(20, 19, 19, 0.5), rgb(11, 4, 4)),url("../../images/Exam_pic.jpg") center/ cover no-repeat; */
+}
+.home-content{
+  
+    margin: 1rem;
+padding: 1rem;
+width: 50%;
+/* color: black; */
+font-weight: bolder;
+}
+.home-content>p{
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    }
+    
+h1{
+
+    padding: 1rem;
+}

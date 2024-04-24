@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(27, 27, 28);
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.foo-connect i{
+    padding:  0 1rem;
+    /* color:#c289c7b9; */
+    color: white;
+    font-size: 1.5rem;
+
+}
+.footer>h4,.foo-connect{
+    margin: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

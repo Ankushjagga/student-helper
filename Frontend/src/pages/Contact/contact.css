@@ -1,0 +1,41 @@
+.heading{
+    text-align: center;
+    font-size: 2rem;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+form>.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    margin: 0!important;
+}
+
+form>.btn{
+    border: none;
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #111;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+form>.btn:hover{
+    cursor: pointer;
+    background-color: #a4af0ed2;
+}
+
+@media (max-width:991px){
+
+.content,form{
+    margin: 0;
+}
+}

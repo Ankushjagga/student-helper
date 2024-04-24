@@ -1,0 +1,29 @@
+.card{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    margin: 2rem;
+    padding: 1.5rem;
+    width:40%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+ 
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.card>p{
+    margin:1rem ;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+font-weight: bold;
+}
+.card:hover  .at{
+    color: #a4af0ed2;
+}
+.card:hover{
+    transform: scale(1.05);
+
+}
